@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+    
+}
+
+h1{
+    text-shadow: 0px 0px 1px black;
+}
+h2{
+    text-shadow: 0px 0px 1px black;
+}
+h4{
+    text-shadow: 0px 0px 1px black;
+} 
+
+#friend{
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid pink;
+}
+#bday-age{
+    background:pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+} 
+#bday-date{
+    background:pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    width: 400px;
+    border: 6px solid black;
+    border-radius: 10px;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-hint{
+    margin-top: 0;
+}
+.gift-img{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(gift.jpg);
+    background-size: cover;
+}
+#gift1:hover{
+    background-image: url(amit4.jpg);
+}
+#gift2:hover{
+    background-image: url(amit1.jpg);
+}
+#gift3:hover{
+    background-image: url(amit.jpg);
+}
+#gift4:hover{
+    background-image: url(amit3.jpg);
+}
+#gift5:hover{
+    background-image: url(amit5.jpg);
+}
+.rajaji{
+    width: 24px !important;
+    height: 24px !important;
+    
+}
